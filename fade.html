@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CIB - fade</title>
+    <link href="bootstrap-3.3.6-dist/css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
+    <link href="bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+      <script src="bootstrap-3.3.6-dist/js/jquery-2.2.2.min.js">
+    </script>
+    
+    <script src="modernizr.js"></script>
+    <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+</head>
+    <body>
+    <div id="div1">ii ni div 1 <br>
+        ii ni div 1 <br>ii ni div 1 <br>ii ni div 1 <br>ii ni div 1 <br>ii ni div 1 <br>ii ni div 1 <br>ii ni div 1 <br>ii ni div 1 <br>ii ni div 1 <br>
+        </div>
+<div id="div2" style="display: none">ii ni div 2<br>ii ni div 2<br>ii ni div 2<br>ii ni div 2<br>ii ni div 2<br>ii ni div 2<br>ii ni div 2<br>ii ni div 2<br>ii ni div 2<br>
+        
+        </div>
+<div><a href="#" id="triggerButton">Swap Divs</a></div>
+<script type="text/javascript">
+$('#triggerButton').click(function(e){
+    e.preventDefault();
+    $('#div1').fadeOut('slow', function(){
+        $('#div2').fadeIn('fast');
+    });
+});</script>
+    </body>
+</html>

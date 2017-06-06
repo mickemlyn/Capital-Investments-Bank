@@ -1,0 +1,50 @@
+
+
+#slideshow {
+    margin-top: 0px;
+  margin-bottom: 80px;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+/*styling text over the circles*/
+.image {
+    position:relative;
+    text-align:center;
+    float: left;
+}
+
+.text {
+    left: 0;
+    position:absolute;
+    top: 15px;
+    padding-left: 10px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.imageslide {
+    position:relative;
+    text-align:center;
+    float: left;
+}
+
+.textslide {
+    left: 0;
+    position:absolute;
+    top: 15px;
+    padding-left: 10px;
+    font-weight: bold;
+    width: 100%;
+}
+
